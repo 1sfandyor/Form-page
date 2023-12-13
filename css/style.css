@@ -110,7 +110,8 @@ img{
 
 /* HERO SECTION */
 .hero {
-  width: 570px;
+  width:100%;
+  max-width:  570px;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
