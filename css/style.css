@@ -48,6 +48,16 @@
   src: url('../fonts/inter-v13-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
        url('../fonts/inter-v13-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
+/* CUSTOM PROPERTIES */
+:root{
+  --body-bg: #F1F4FF;
+  --green: #4DC490;
+  --red: #F03535;
+  --gray: #555;
+  --purple: #655AF2;
+  --text-color: #000;
+  --font-family: 'Inter', 'Arial', sans-serif;
+}
 
 
 html{
@@ -62,6 +72,10 @@ html{
   box-sizing: inherit;
 }
 
+*:focus{
+  outline: 2px dotted var(--purple);
+  outline-offset: 3px;
+}
 
 body{
   display: flex;
@@ -84,7 +98,7 @@ img{
 
 .container{
   width: 100%;
-  max-width: 1200px;
+  max-width: 1192px;
   padding-left: 50px;
   padding-right: 50px;
   margin-right: auto;
